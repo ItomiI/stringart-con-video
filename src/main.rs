@@ -4,7 +4,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     let nombre = "pikachu2";
     let extension = "jpg";
-    let carpeta = "c:/Users/tomas/Desktop/stringart/stringvideo/imagess/";
+    let carpeta = "c:/Users/tomas/Desktop/stringart/stringvideo/images/";
     let mut n: u32 = 0;
     let input = format!("{}.{}",nombre,extension);
     let img = image::open(&input)?;
